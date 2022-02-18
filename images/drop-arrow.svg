@@ -1,14 +1,42 @@
-<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="mask0_706_1034" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="10" height="10">
-<rect width="10" height="10" fill="url(#pattern0)"/>
-</mask>
-<g mask="url(#mask0_706_1034)">
-<rect x="10" width="10" height="10" transform="rotate(90 10 0)" fill="white"/>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0
+			s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667
+			C514.096,145.416,514.096,131.933,505.755,123.592z"/>
+	</g>
 </g>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_706_1034" transform="scale(0.01)"/>
-</pattern>
-<image id="image0_706_1034" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAB4klEQVR4nO3cz2rUUBhA8Wr1SYpF3BQsUp9ZFyIu6krfxp12EFQqwumiuRDiTJt75ya5f84PZjd8+SYnk1lNTk4kSZIkSZIkSZIkSZIkSeod8GTrHWoGPAdOcwy6AD4Df4Bb4BPwMsOOXQBeAdfAP+Av8BV4kzrsAvjJ/26Aq8y7Nwe4Gs7V1C/gMmXg9Z5hwc4ohw0xdg+cvy+xA58Ot6mHGGWPGTHg/vb1LHbw70eGGmViZgyA25ThH2YMNsogIgbAx5QDnLH/R8koE5ExboCz1AO9Br5HRHmb+bMWD7gEfqx24RrlsNVjjA5slInNYowWMMpg8xijRbqPUkyM0ULdRikuxmix7qIUG2O0YDdRio8xWrT5KNXEGC3cbJTqYgQtRqk2RtBSlOpjBC1EaSZGUHOU5mIENUZpNkZQU5TmYwQ1ROkmRlBylO5iBCVG6TZGUFKU7mMEJUQxxsSWUYxxwBZRjPGINaMYY6Y1ohgj0pJRjJFoiSjGOFLOKMbIJEcUY2R2TBRjLCQlijEWRtx/LnaR7zVGCuK+KcZYQ8YoxsglQxRj5HZEFGMsJSGKMZYWEcUYa5kRxRhr4/DDXXw4zlaAc+A98G14vQNebL2XJEmSJEmSJEmSJEmSJElSHe4AdOKHwz8EDQsAAAAASUVORK5CYII="/>
-</defs>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>

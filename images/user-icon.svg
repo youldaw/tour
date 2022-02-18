@@ -1,9 +1,52 @@
-<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="35" height="35" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_706_1031" transform="scale(0.0104167)"/>
-</pattern>
-<image id="image0_706_1031" width="96" height="96" xlink:href="data:image/png;base64,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"/>
-</defs>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 460.8 460.8" style="enable-background:new 0 0 460.8 460.8;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M230.432,0c-65.829,0-119.641,53.812-119.641,119.641s53.812,119.641,119.641,119.641s119.641-53.812,119.641-119.641
+			S296.261,0,230.432,0z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M435.755,334.89c-3.135-7.837-7.314-15.151-12.016-21.943c-24.033-35.527-61.126-59.037-102.922-64.784
+			c-5.224-0.522-10.971,0.522-15.151,3.657c-21.943,16.196-48.065,24.555-75.233,24.555s-53.29-8.359-75.233-24.555
+			c-4.18-3.135-9.927-4.702-15.151-3.657c-41.796,5.747-79.412,29.257-102.922,64.784c-4.702,6.792-8.882,14.629-12.016,21.943
+			c-1.567,3.135-1.045,6.792,0.522,9.927c4.18,7.314,9.404,14.629,14.106,20.898c7.314,9.927,15.151,18.808,24.033,27.167
+			c7.314,7.314,15.673,14.106,24.033,20.898c41.273,30.825,90.906,47.02,142.106,47.02s100.833-16.196,142.106-47.02
+			c8.359-6.269,16.718-13.584,24.033-20.898c8.359-8.359,16.718-17.241,24.033-27.167c5.224-6.792,9.927-13.584,14.106-20.898
+			C436.8,341.682,437.322,338.024,435.755,334.89z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>
