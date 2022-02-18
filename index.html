@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+<head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap4/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet icon" type="text/css" href="css/style.css" media="screen">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <meta name="viewport" content="width=480"> -->
 	<meta charset="UTF-8">
@@ -11,21 +12,675 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header>
+		<header class="header header-index">
+			<div class="container-fluid nav-con">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<nav class="navbar navbar-expand-lg">
+								<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								  <span class="navbar-toggler-icon"></span>
+								</button>
+							  
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								  <ul class="navbar-nav">
+									<li class="nav-item">
+									  <a class="nav-link" href="#!">Все туры</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Туры по тематикам</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!">Блог</a>
+									</li>
+									<li class="nav-item dropdown">
+									  <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+										<img src="images/language-icon.svg" alt=""> 
+										<span>Русский</span>
+										<img src="images/drop-arrow.svg" alt="" class="arrow">
+									  </a>
+									  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#!">Action</a>
+										<a class="dropdown-item" href="#!">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#!">Something else here</a>
+									  </div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#!"><img src="images/user-icon.svg" alt=""></a>
+									</li>
+								  </ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="container">
-				<div class="row"></div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="head-block">
+							<h1>Авторские туры от тревел-экспертов со всего мира</h1>
+							<h3>Ищите, сравнивайте и заказывайте туры напрямую у организатора <br> без посредников</h3>
+							<div class="head-search">
+								<div class="search-in">
+									<a href="#!" class="head-btn active">Поиск</a>
+									<a href="#!" class="head-btn">Быстрый подбор тура</a>
+								</div>
+							</div>
+							<div class="search-block">
+								<form action="!" method="post" id="search-form">
+									<div class="form-group in-one">
+										<input type="text" id="where" name="where" placeholder="Куда">
+									</div>
+									<div class="form-group in-two">
+										<input type="text" id="when" name="when" placeholder="Когда">
+									</div>
+									<div class="search-form-btn">
+										<button type="submit" id="search-btn">Поиск</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header>
 
-		<section class="main-sec">
-			<div class="container">
-				<div class="row">
-					
+		<main>
+			<section class="recomendation-sec">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Рекомендации для вас</h2>
+						</div>
+					</div>
+	
+					<div class="recomendation-slide-content">
+						<div class="recomendation-slide">
+							<div class="col-lg-12">
+								<a href="#!" class="recom-block">
+									<div class="recom-head">
+										<div class="recom-img">
+											<img src="images/recomendation-img1.png" alt="">
+										</div>
+										<div class="recom-top">
+											<span class="sale">Скидка</span>
+											<span class="favorite">
+												<img src="images/favorite-icon.png" alt="" class="default-img">
+												<img src="images/favorite-icon-hover.png" alt="" class="hover-img">
+											</span>
+										</div>
+										<div class="recom-sub">
+											<span class="rating"><img src="images/star-icon.svg" alt=""> 4.6</span>
+											<span class="comment">(630 отзывов)</span>
+										</div>
+									</div>
+									<div class="recom-ftr">
+										<h4>Путешествие по озерам (Карелия, Россия)</h4>
+										<div class="recom-date">
+											<span class="date">11 дней</span>
+											<span class="vertical-line">|</span>
+											<span class="name">Вело-тур</span>
+											<span class="vertical-line">|</span>
+											<span class="month">Июнь 2021</span>
+										</div>
+										<div class="recom-price">
+											<h3 class="red">20 000 <span class="currency-symbol">₽</span></h3>
+											<del>27 000 <span class="currency-symbol">₽</span></del>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-12">
+								<a href="#!" class="recom-block">
+									<div class="recom-head">
+										<div class="recom-img">
+											<img src="images/recomendation-img2.png" alt="">
+										</div>
+										<div class="recom-top">
+											<span class="favorite">
+												<img src="images/favorite-icon.png" alt="" class="default-img">
+												<img src="images/favorite-icon-hover.png" alt="" class="hover-img">
+											</span>
+										</div>
+										<div class="recom-sub">
+											<span class="rating"><img src="images/star-icon.svg" alt=""> 4.9</span>
+											<span class="comment">(110 отзывов)</span>
+										</div>
+									</div>
+									<div class="recom-ftr">
+										<h4>Фитнес-тур на Мальдивах (Мальдивы)</h4>
+										<div class="recom-date">
+											<span class="date">10 дней</span>
+											<span class="vertical-line">|</span>
+											<span class="name">Фитнес тур</span>
+											<span class="vertical-line">|</span>
+											<span class="month">Сентябрь 2021</span>
+										</div>
+										<div class="recom-price">
+											<h3>66 000 <span class="currency-symbol">₽</span></h3>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-12">
+								<a href="#!" class="recom-block">
+									<div class="recom-head">
+										<div class="recom-img">
+											<img src="images/recomendation-img3.png" alt="">
+										</div>
+										<div class="recom-top">
+											<span class="sale">Скидка</span>
+											<span class="favorite">
+												<img src="images/favorite-icon.png" alt="" class="default-img">
+												<img src="images/favorite-icon-hover.png" alt="" class="hover-img">
+											</span>
+										</div>
+										<div class="recom-sub">
+											<span class="rating"><img src="images/star-icon.svg" alt=""> 4.7</span>
+											<span class="comment">(93 отзывов)</span>
+										</div>
+									</div>
+									<div class="recom-ftr">
+										<h4>Детокс-тур (Ялта)</h4>
+										<div class="recom-date">
+											<span class="date">11 дней</span>
+											<span class="vertical-line">|</span>
+											<span class="name">Вело-тур</span>
+											<span class="vertical-line">|</span>
+											<span class="month">Июль 2021</span>
+										</div>
+										<div class="recom-price">
+											<h3 class="red">50 000 <span class="currency-symbol">₽</span></h3>
+											<del>75 000 <span class="currency-symbol">₽</span></del>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+	
+			<section class="why-us">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Почему именно мы?</h2>
+						</div>
+	
+						<div class="col-lg-4 col-md-6">
+							<div class="why-block">
+								<div class="why-img">
+									<img src="images/why-icon1.svg" alt="">
+								</div>
+								<div class="why-text">
+									<h4>Все самое лучшее</h4>
+									<p>Только тщательно продуманные, безопасные и проверенные маршруты от независимых гидов и экспертов по путешествиям.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="why-block">
+								<div class="why-img">
+									<img src="images/why-icon2.svg" alt="">
+								</div>
+								<div class="why-text">
+									<h4>Гарантия цены</h4>
+									<p>Никаких наценок. Цена от организатора тура.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="why-block">
+								<div class="why-img">
+									<img src="images/why-icon3.svg" alt="">
+								</div>
+								<div class="why-text">
+									<h4>Защищенные платежи</h4>
+									<p>Мы используем только безопасные системы оплаты, одобренные во всём мире.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="prev-tours">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Ранее просмотренные туры</h2>
+						</div>
+					</div>
+					<div class="row pt-rov">
+						<div class="col-lg-4 col-md-7 col-sm-8 col-10 pt-col">
+							<a href="#!" class="pt-block">
+								<div class="pt-head">
+									<div class="pt-img">
+										<img src="images/prev-tours1.png" alt="">
+									</div>
+									<div class="pt-top">
+										<span class="favorite">
+											<img src="images/favorite-icon.png" alt="" class="default-img">
+											<img src="images/favorite-icon-hover.png" alt="" class="hover-img">
+										</span>
+									</div>
+									<div class="pt-sub">
+										<span class="rating"><img src="images/star-icon.svg" alt=""> 4.6</span>
+										<span class="comment">(127 отзывов)</span>
+									</div>
+								</div>
+								<div class="pt-ftr">
+									<h4>Путешествие по винодельням и виноградникам (Армения)</h4>
+									<div class="pt-date">
+										<span class="date">5 дней</span>
+										<span class="vertical-line">|</span>
+										<span class="name">Винный тур</span>
+										<span class="vertical-line">|</span>
+										<span class="month">Июнь 2021</span>
+									</div>
+									<div class="pt-price">
+										<h3>27 000 ₽ <span class="currency-symbol">₽</span></h3>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-7 col-sm-8 col-10 pt-col">
+							<a href="#!" class="pt-block">
+								<div class="pt-head">
+									<div class="pt-img">
+										<img src="images/prev-tours2.png" alt="">
+									</div>
+									<div class="pt-top">
+										<span class="favorite">
+											<img src="images/favorite-icon.png" alt="" class="default-img">
+											<img src="images/favorite-icon-hover.png" alt="" class="hover-img">
+										</span>
+									</div>
+									<div class="pt-sub">
+										<span class="rating"><img src="images/star-icon.svg" alt=""> 4.9</span>
+										<span class="comment">(110 отзывов)</span>
+									</div>
+								</div>
+								<div class="pt-ftr">
+									<h4>Путешествие по озеру Байкал (Россия)</h4>
+									<div class="pt-date">
+										<span class="date">14 дней</span>
+										<span class="vertical-line">|</span>
+										<span class="name">Водный тур</span>
+										<span class="vertical-line">|</span>
+										<span class="month">Август 2021</span>
+									</div>
+									<div class="pt-price">
+										<h3>27 000 ₽ <span class="currency-symbol">₽</span></h3>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="choose-country">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Выберите страну для путешествия своей мечты</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country1.png" alt="">
+								<span>Италия</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country2.png" alt="">
+								<span>Россия</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country3.png" alt="">
+								<span>США</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country4.png" alt="">
+								<span>Турция</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country5.png" alt="">
+								<span>Германия</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country6.png" alt="">
+								<span>Финляндия</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country7.png" alt="">
+								<span>Канада</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country8.png" alt="">
+								<span>Австрия</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country9.png" alt="">
+								<span>Мальдивы</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country10.png" alt="">
+								<span>Испания</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country11.png" alt="">
+								<span>Чехия</span>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 country-col">
+							<a href="#!" class="choose-country-block">
+								<img src="images/choose-country12.png" alt="">
+								<span>Франция</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="our-guides">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Наши гиды</h2>
+						</div>
+					</div>
+					<div class="guides-slide-content">
+						<div class="guides-slide">
+							<div class="col-lg-12 guides-col">
+								<div class="guides-block">
+									<div class="guides-img">
+										<img src="images/guid1.png" alt="">
+									</div>
+									<div class="guides-text">
+										<h4>Алексей</h4>
+										<div class="guides-country">
+											<span class="country">Германия</span>
+											<span class="vertical-line">|</span>
+											<span class="location">Вело-туры</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 guides-col">
+								<div class="guides-block">
+									<div class="guides-img">
+										<img src="images/guid2.png" alt="">
+									</div>
+									<div class="guides-text">
+										<h4>Ольга</h4>
+										<div class="guides-country">
+											<span class="country">Карелия, Россия</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 guides-col">
+								<div class="guides-block">
+									<div class="guides-img">
+										<img src="images/guid3.png" alt="">
+									</div>
+									<div class="guides-text">
+										<h4>Сергей</h4>
+										<div class="guides-country">
+											<span class="country">Флорида, США</span>
+											<span class="vertical-line">|</span>
+											<span class="location">Фитнес туры</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 guides-col">
+								<div class="guides-block">
+									<div class="guides-img">
+										<img src="images/guid4.png" alt="">
+									</div>
+									<div class="guides-text">
+										<h4>Алексей</h4>
+										<div class="guides-country">
+											<span class="country">Финляндия</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-		<footer>
+			<section class="how-it-works">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Как это работает?</h2>
+						</div>
+					</div>
+					<div class="row hiw-rov	">
+						<div class="col-lg-3">
+							<div class="hiw-block">
+								<span class="num">1</span>
+								<h4>Выберите тур</h4>
+								<p>Здесь собрано множество предложений от проверенных экспертов, которые берут всю организацию на себя, чтобы сделать Ваш отдых лучшим.</p>
+							</div>
+						</div>
+						<div class="col-lg-1 arrow-col">
+							<img src="images/big-arrow.svg" alt="">
+						</div>
+						<div class="col-lg-3">
+							<div class="hiw-block">
+								<span class="num">2</span>
+								<h4>Пообщайтесь с организатором</h4>
+								<p>Все поездки у экспертов по путешествиям тщательно спланированы. Вы можете уточнить всю интересующую информацию напрямую у организатора.</p>
+							</div>
+						</div>
+						<div class="col-lg-1 arrow-col">
+							<img src="images/big-arrow.svg" alt="">
+						</div>
+						<div class="col-lg-3">
+							<div class="hiw-block">
+								<span class="num">3</span>
+								<h4>Забронируйте тур</h4>
+								<p>С помощью безопасной системы приёма платежей забронируйте понравившийся Вам тур.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row right-rov">
+						<div class="col-lg-12 right">
+							<img src="images/big-arrow.svg" alt="">
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-lg-3">
+							<div class="hiw-block mb-0">
+								<span class="num">5</span>
+								<h4>Возвращайтесь к нам</h4>
+								<p>Возвращайтесь к нам за новыми приключениями и незабываемыми впечатлениями!</p>
+							</div>
+						</div>
+						<div class="col-lg-3 arrow-col center">
+							<img src="images/big-arrow.svg" alt="">
+						</div>
+						<div class="col-lg-3">
+							<div class="hiw-block mb-0">
+								<span class="num">4</span>
+								<h4>Оставьте свой отзыв</h4>
+								<p>Делитесь своими впечатлениями от поездки, ведь это поможет будущему путешественнику сделать свой выбор.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="choose-tour">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Выбирайте тур по своим интересам</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img1.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Конные туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img2.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Винные туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img3.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Водные туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img4.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Яхт-туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img5.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Горнолыжные туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img6.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Танцевальные туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img7.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Психологические туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 tour-col">
+							<div class="tour-block">
+								<div class="tour-img">
+									<img src="images/tour-img8.png" alt="">
+								</div>
+								<div class="tour-text">
+									<p>Яхт-туры</p>
+								</div>
+								<div class="hover-text">
+									<p>У нас есть еще больше тематик на любой вкус</p>
+									<a href="#!">Посмотреть <img src="images/arrow-right.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="choose-country">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Выберите континент для путешествия</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
 			<div class="container">
 				<div class="row">
 					
