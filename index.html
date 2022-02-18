@@ -20,34 +20,50 @@
 							<nav class="navbar navbar-expand-lg">
 								<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
 								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								  <span class="navbar-toggler-icon"></span>
+								  <span class="menu-icon">
+									  <span class="one"></span>
+									  <span class="two"></span>
+									  <span class="three"></span>
+								  </span>
 								</button>
 							  
 								<div class="collapse navbar-collapse" id="navbarSupportedContent">
 									<ul class="navbar-nav">
+										<a href="#!" class="mob menu-logo"><img src="images/logo.png" alt=""></a>
 										<li class="nav-item">
-											<a class="nav-link" href="#!">Все туры</a>
+											<a class="nav-link" href="#!"><span class="mob"><img src="images/mob-all-tours.png" alt=""></span> Все туры</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#!">Туры по тематикам</a>
+											<a class="nav-link" href="#!"><span class="mob"><img src="images/mob-tours-tematic.png" alt=""></span> Туры по тематикам</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#!">Блог</a>
+											<a class="nav-link" href="#!"><span class="mob"><img src="images/mob-blog.png" alt=""></span>Блог</a>
 										</li>
-										<li class="nav-item dropdown">
+										<li class="nav-item dropdown currency">
+											<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-expanded="false">
+												<span>₽ Рубль</span>
+												<img src="images/drop-arrow.svg" alt="" class="arrow">
+											</a>
+											<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+												<a class="dropdown-item" href="#!">₽ Рубль</a>
+												<a class="dropdown-item" href="#!">€ Евро</a>
+												<a class="dropdown-item" href="#!">$ Долла</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown lang">
 											<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
 												<img src="images/language-icon.svg" alt="" class="icon"> 
 												<span>Русский</span>
 												<img src="images/drop-arrow.svg" alt="" class="arrow">
 											</a>
 											<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-												<a class="dropdown-item" href="#!">Action</a>
-												<a class="dropdown-item" href="#!">Another action</a>
-												<a class="dropdown-item" href="#!">Something else here</a>
+												<a class="dropdown-item" href="#!">Английский</a>
+												<a class="dropdown-item" href="#!">Испанский</a>
+												<a class="dropdown-item" href="#!">Немецкий</a>
 											</div>
 										</li>
 										<li class="nav-item user">
-											<a class="nav-link" href="#!"><img src="images/user-icon.svg" alt=""></a>
+											<a class="nav-link" href="#!"><img src="images/user-icon.svg" alt=""> <span class="mob mob-user">Вход</span></a>
 										</li>
 									</ul>
 								</div>
@@ -72,10 +88,36 @@
 							<div class="search-block">
 								<form action="!" method="post" id="search-form">
 									<div class="form-group in-one">
-										<input type="text" id="where" name="where" placeholder="Куда">
+										<input type="text" id="endDate" placeholder="Куда" autocomplete="off">
 									</div>
 									<div class="form-group in-two">
-										<input type="text" id="when" name="when" placeholder="Когда">
+										<input type="text" id="where" name="where" placeholder="Когда" autocomplete="off">
+
+										<div class="drop-input">
+											<div class="input-menu">
+												<a href="#!">
+													<img src="images/marker-icon.png" alt="">
+													<div class="input-text">
+														<p>Петрозаводск</p>
+														<span>Карелия, Россия</span>
+													</div>
+												</a>
+												<a href="#!">
+													<img src="images/marker-icon.png" alt="">
+													<div class="input-text">
+														<p>Петропавловск-Камчатский</p>
+														<span>Камчатка, Россия</span>
+													</div>
+												</a>
+												<a href="#!">
+													<img src="images/marker-icon.png" alt="">
+													<div class="input-text">
+														<p>Петергоф</p>
+														<span>Санкт-Петербург, Россия</span>
+													</div>
+												</a>
+											</div>
+										</div>
 									</div>
 									<div class="search-form-btn">
 										<button type="submit" id="search-btn">Поиск</button>
@@ -211,7 +253,7 @@
 							<h2>Почему именно мы?</h2>
 						</div>
 	
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="why-block">
 								<div class="why-img">
 									<img src="images/why-icon1.svg" alt="">
@@ -222,7 +264,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="why-block">
 								<div class="why-img">
 									<img src="images/why-icon2.svg" alt="">
@@ -233,7 +275,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="why-block">
 								<div class="why-img">
 									<img src="images/why-icon3.svg" alt="">
@@ -486,53 +528,60 @@
 						</div>
 					</div>
 					<div class="row hiw-rov	">
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="hiw-block">
 								<span class="num">1</span>
 								<h4>Выберите тур</h4>
 								<p>Здесь собрано множество предложений от проверенных экспертов, которые берут всю организацию на себя, чтобы сделать Ваш отдых лучшим.</p>
 							</div>
 						</div>
-						<div class="col-lg-1 arrow-col">
+						<div class="col-lg-1 d-xl-block d-lg-block d-md-none d-sm-none d-xs-none arrow-col">
 							<img src="images/big-arrow.svg" alt="">
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="hiw-block">
 								<span class="num">2</span>
 								<h4>Пообщайтесь с организатором</h4>
 								<p>Все поездки у экспертов по путешествиям тщательно спланированы. Вы можете уточнить всю интересующую информацию напрямую у организатора.</p>
 							</div>
 						</div>
-						<div class="col-lg-1 arrow-col">
+						<div class="col-lg-1 d-xl-block d-lg-block d-md-none d-sm-none d-xs-none arrow-col">
 							<img src="images/big-arrow.svg" alt="">
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="hiw-block">
 								<span class="num">3</span>
 								<h4>Забронируйте тур</h4>
 								<p>С помощью безопасной системы приёма платежей забронируйте понравившийся Вам тур.</p>
 							</div>
 						</div>
+						<div class="col-lg-3 col-md-6 d-xl-none d-lg-none d-md-block">
+							<div class="hiw-block">
+								<span class="num">4</span>
+								<h4>Оставьте свой отзыв</h4>
+								<p>Делитесь своими впечатлениями от поездки, ведь это поможет будущему путешественнику сделать свой выбор.</p>
+							</div>
+						</div>
 					</div>
 
-					<div class="row right-rov">
+					<div class="row right-rov d-xl-block d-lg-block d-md-none d-sm-none d-xs-none">
 						<div class="col-lg-12 right">
 							<img src="images/big-arrow.svg" alt="">
 						</div>
 					</div>
 
 					<div class="row justify-content-center">
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="hiw-block mb-0">
 								<span class="num">5</span>
 								<h4>Возвращайтесь к нам</h4>
 								<p>Возвращайтесь к нам за новыми приключениями и незабываемыми впечатлениями!</p>
 							</div>
 						</div>
-						<div class="col-lg-3 arrow-col center">
+						<div class="col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-xs-none arrow-col center">
 							<img src="images/big-arrow.svg" alt="">
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6 d-xl-block d-lg-block d-md-none d-sm-none d-xs-none">
 							<div class="hiw-block mb-0">
 								<span class="num">4</span>
 								<h4>Оставьте свой отзыв</h4>
@@ -833,7 +882,7 @@
 			<div class="container-fluid ftr-con">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-lg-12 ftr-col">
 							<div class="ftr-sub">
 								<div class="ftr-left">
 									<p>© 2021 OTE TOUR</p>
