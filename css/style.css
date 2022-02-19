@@ -747,7 +747,7 @@ header .search-block .in-two .drop-input .input-menu a:hover .input-text span {
 }
 .how-it-works .arrow-col.center img {
 	top: -17px;
-    left: 88px;
+    left: 10%;
 }
 .how-it-works .right-rov {
 	position: relative;
@@ -1442,6 +1442,9 @@ footer .ftr-sub .ftr-right a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+	header .search-block form .search-form-btn button {
+		width: 300px;
+	}
 	.how-it-works .hiw-block {
 		margin-bottom: 60px;
 	}
@@ -1515,6 +1518,22 @@ footer .ftr-sub .ftr-right a:hover {
 	footer .ftr-sub .ftr-center a {
 		padding: 15px 35px;
 	}
+	header .search-block form .form-group.in-two input,
+	.monthpicker {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	header .search-block .in-two .drop-input {
+		width: 100%;
+		margin-top: -5px;
+	}
+	header .search-block form .search-form-btn {
+		width: 300px;
+	}
+	header .search-block form .search-form-btn button {
+		margin-top: 0;
+		width: 300px;
+	}
 }
 
 @media only screen and (max-width: 580px) {
@@ -1535,22 +1554,7 @@ footer .ftr-sub .ftr-right a:hover {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	header .search-block form .form-group.in-two input,
-	.monthpicker {
-		margin-right: 0;
-		margin-bottom: 10px;
-	}
-	header .search-block .in-two .drop-input {
-		width: 100%;
-		margin-top: -5px;
-	}
-	header .search-block form .search-form-btn {
-		width: 300px;
-	}
-	header .search-block form .search-form-btn button {
-		margin-top: 0;
-		width: 300px;
-	}
+	
 	section {
 		padding-top: 50px !important;
 	}
