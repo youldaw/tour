@@ -473,7 +473,6 @@ header .search-block .in-two .drop-input .input-menu a:hover .input-text span {
 	flex-wrap: nowrap;
 	overflow-x: auto;
 	overflow-y: hidden;
-	-webkit-overflow-scrolling: touch;
 }
 .prev-tours .pt-col {
 	padding-bottom: 10px;
@@ -747,7 +746,7 @@ header .search-block .in-two .drop-input .input-menu a:hover .input-text span {
 }
 .how-it-works .arrow-col.center img {
 	top: -17px;
-    left: 10%;
+    left: 88px;
 }
 .how-it-works .right-rov {
 	position: relative;
@@ -1322,8 +1321,6 @@ footer .ftr-sub .ftr-right a:hover {
 	}
 	header .search-block form .search-form-btn button {
 		margin-top: 10px;
-		margin-right: 10px;
-		width: 610px;
 	}
 	.why-us .why-block {
 		margin-bottom: 40px;
@@ -1333,7 +1330,6 @@ footer .ftr-sub .ftr-right a:hover {
 	}
 	.choose-country .selCont {
 		overflow: auto;
-		-webkit-overflow-scrolling: touch;
 	}
 	.our-blog .blog-block {
 		margin-bottom: 30px;
@@ -1442,9 +1438,6 @@ footer .ftr-sub .ftr-right a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-	header .search-block form .search-form-btn button {
-		width: 300px;
-	}
 	.how-it-works .hiw-block {
 		margin-bottom: 60px;
 	}
@@ -1458,7 +1451,6 @@ footer .ftr-sub .ftr-right a:hover {
 		align-items: flex-start;
 		overflow-x: auto;
 		overflow-y: hidden;
-		-webkit-overflow-scrolling: touch;
 		padding-bottom: 10px;
 	}
 	.choose-country .selCont .w a {
@@ -1518,11 +1510,6 @@ footer .ftr-sub .ftr-right a:hover {
 	footer .ftr-sub .ftr-center a {
 		padding: 15px 35px;
 	}
-	header .search-block form .form-group.in-two input,
-	.monthpicker {
-		margin-right: 0;
-		margin-bottom: 10px;
-	}
 }
 
 @media only screen and (max-width: 580px) {
@@ -1542,6 +1529,11 @@ footer .ftr-sub .ftr-right a:hover {
 	header .head-block h3 {
 		font-size: 20px;
 		line-height: 24px;
+	}
+	header .search-block form .form-group.in-two input,
+	.monthpicker {
+		margin-right: 0;
+		margin-bottom: 10px;
 	}
 	header .search-block .in-two .drop-input {
 		width: 100%;
