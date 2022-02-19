@@ -473,6 +473,7 @@ header .search-block .in-two .drop-input .input-menu a:hover .input-text span {
 	flex-wrap: nowrap;
 	overflow-x: auto;
 	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
 }
 .prev-tours .pt-col {
 	padding-bottom: 10px;
@@ -1332,6 +1333,7 @@ footer .ftr-sub .ftr-right a:hover {
 	}
 	.choose-country .selCont {
 		overflow: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 	.our-blog .blog-block {
 		margin-bottom: 30px;
@@ -1453,6 +1455,7 @@ footer .ftr-sub .ftr-right a:hover {
 		align-items: flex-start;
 		overflow-x: auto;
 		overflow-y: hidden;
+		-webkit-overflow-scrolling: touch;
 		padding-bottom: 10px;
 	}
 	.choose-country .selCont .w a {
