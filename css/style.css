@@ -1441,10 +1441,8 @@ footer .ftr-sub .ftr-right a:hover {
 	}
 }
 
+
 @media only screen and (max-width: 768px) {
-	header .search-block form .search-form-btn button {
-		width: 300px;
-	}
 	.how-it-works .hiw-block {
 		margin-bottom: 60px;
 	}
@@ -1518,6 +1516,12 @@ footer .ftr-sub .ftr-right a:hover {
 	footer .ftr-sub .ftr-center a {
 		padding: 15px 35px;
 	}
+}
+
+@media only screen and (max-width: 767px) {
+	header .search-block form .search-form-btn button {
+		width: 300px;
+	}
 	header .search-block form .form-group.in-two input,
 	.monthpicker {
 		margin-right: 0;
@@ -1537,6 +1541,7 @@ footer .ftr-sub .ftr-right a:hover {
 }
 
 @media only screen and (max-width: 580px) {
+	
 	.d-sm-none {
 		display: none;
 	}
@@ -1554,7 +1559,6 @@ footer .ftr-sub .ftr-right a:hover {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	
 	section {
 		padding-top: 50px !important;
 	}
